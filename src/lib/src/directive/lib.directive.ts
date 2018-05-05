@@ -3,7 +3,7 @@ import { AfterViewInit, DoCheck, Directive, ElementRef, HostListener, Input, Ren
 @Directive({
   selector:"[ngxFooterReveal]"
 })
-export class FooterRevealDirective implements AfterViewInit, DoCheck { 
+export class NgxFooterRevealDirective implements AfterViewInit, DoCheck { 
     @Input('options') public options?: any;
     @Input('shadow') public shadow?: boolean;
     @Input('shadowOpacity') public shadowOpacity?: number;

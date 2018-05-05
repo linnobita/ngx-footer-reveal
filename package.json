@@ -1,14 +1,17 @@
 {
   "name": "ngx-footer-reveal",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.1",
   "description": "An Angular 2+ version of footer-reveal.js",
-  "main": "./bundles/qngx-footer-reveal.umd.js",
-  "module": "./qngx-footer-reveal.es5.js",
-  "es2015": "./qngx-footer-reveal.js",
-  "typings": "./qngx-footer-reveal.d.ts",
-  "author": "Lewis Lin",
+  "main": "./bundles/ngx-footer-reveal.umd.js",
+  "module": "./ngx-footer-reveal.es5.js",
+  "es2015": "./ngx-footer-reveal.js",
+  "typings": "./ngx-footer-reveal.d.ts",
+  "author": "Lewis Lin <lewisjlin@gmail.com>",
   "license": "MIT",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linnobita/ngx-footer-reveal"
+  },
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"

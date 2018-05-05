@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { FooterRevealDirective } from './directive/lib.directive';
+import { NgxFooterRevealDirective } from './directive/lib.directive';
 
 @NgModule({
-  declarations: [FooterRevealDirective],
-  exports: [FooterRevealDirective]
+  declarations: [NgxFooterRevealDirective],
+  exports: [NgxFooterRevealDirective]
 })
-export class FooterRevealModule { }
+export class NgxFooterRevealModule { }
