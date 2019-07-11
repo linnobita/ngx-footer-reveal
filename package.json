@@ -1,6 +1,6 @@
 {
   "name": "ngx-footer-reveal",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "An Angular 2+ version of footer-reveal.js",
   "main": "./bundles/ngx-footer-reveal.umd.js",
   "module": "./ngx-footer-reveal.es5.js",
@@ -28,10 +28,7 @@
     "build-test": "tsc -p src/lib/tsconfig.spec.json",
     "build-test:watch": "tsc -p src/lib/tsconfig.spec.json -w",
     "pretest": "npm run build-test",
-    "test": "concurrently \"npm run build-test:watch\" \"karma start karma.conf.js\"",
-    "coverage": "karma start karma-coverage.conf.js --single-run",
     "pretest:once": "npm run build-test",
-    "test:once": "karma start karma.conf.js --single-run",
     "preintegration": "npm run build && cd integration && npm run clean && npm install",
     "integration": "npm run integration:aot && npm run integration:jit",
     "integration:jit": "cd integration && npm run e2e",
@@ -56,14 +53,6 @@
     "core-js": "^2.5.7",
     "glob": "^7.1.3",
     "jasmine-core": "^3.2.1",
-    "karma": "^3.1.3",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-cli": "^2.0.0",
-    "karma-coverage": "^1.1.2",
-    "karma-html-reporter": "^0.2.7",
-    "karma-jasmine": "^2.0.1",
-    "karma-jasmine-html-reporter": "^1.4.0",
-    "karma-remap-coverage": "^0.1.5",
     "lite-server": "^2.4.0",
     "rimraf": "^2.6.2",
     "rollup": "^0.66.6",
@@ -75,7 +64,7 @@
     "standard-version": "^4.4.0",
     "systemjs": "^2.0.2",
     "tslint": "^5.11.0",
-    "typescript": "~3.1.3",
+    "typescript": "~2.7.2",
     "zone.js": "^0.8.26"
   }
 }
